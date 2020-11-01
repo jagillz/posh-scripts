@@ -1,1 +1,0 @@
-﻿Get-ADUser -Filter * -SearchBase "OU=a,DC=domain,DC=net" -Properties manager,organization | Export-CSV c:\Users\jgill\documents\script1.csv
